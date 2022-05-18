@@ -10,11 +10,13 @@ let lista_peces = ["Dory", "Nemo"]
 let mas_peces = ["Pinky", "Boby"]
 
 // Cambiar SOLAMENTE las dos siguientes líneas:
-console.log(lista_peces)
-console.log(mas_peces)
+console.log(lista_peces[0]);
+console.log(mas_peces[1]);
 
 // Preguntas BONUS:
 /**
  * 1. ¿Cuántos elementos tiene el array 'lista_peces'?
- * 2. ¿Qué pasa si ejecutamos console.log(mas_peces[2])? ¿Por qué vemos ese valor?
+ * 2. ¿Qué pasa si ejecutamos console.log(mas_peces[2])? ¿Por qué vemos ese valor? porque tiene dos valores, en las posiciones 0 y 1, en la posicion 2 no hay valor
  */
+
+console.log(lista_peces.length);

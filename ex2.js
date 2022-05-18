@@ -21,6 +21,12 @@ for(let i=0; i<muchos_peces.length; i++) {
     console.log("Pez siguiente: " + siguiente_pez)
 
     // Modifica SOLAMENTE a partir de aquí
+    if (siguiente_pez == "Nemo"){
+        console.log("He encontrado a nemo");
+    }
+    else{
+        console.log("Este no es nemo!");
+    }
 }
 
 // BONUS. Sólamente para pensarlo, no hace falta arreglar ni hacer nada más de momento. ¿No es muy ineficaz recorrer todo el array si ya hemos encontrado a Nemo?

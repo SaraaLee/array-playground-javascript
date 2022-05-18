@@ -19,6 +19,7 @@ console.log("console3: ", muchos_peces.includes("nemo"))
 
 /**
  * CONTESTA: ¿Por qué el primer console log arroja el valor "true" y el segundo arroja el valor "false"?
- * CONTESTA: ¿Que TIPO de dato devuelve la función 'includes' (number, string, boolean o array)? 
- *  CONTESTA: ¿Por qué el tercer console devuelve 'false', si claramente Nemo está en el array)? 
+ * porque el primer valor si que esta y el valor pepitillo no
+ * CONTESTA: ¿Que TIPO de dato devuelve la función 'includes' (number, string, boolean o array)? boolean
+ *  CONTESTA: ¿Por qué el tercer console devuelve 'false', si claramente Nemo está en el array)? porque esta mal escrito
  */

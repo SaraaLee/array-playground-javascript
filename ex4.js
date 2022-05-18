@@ -12,7 +12,7 @@
  console.log("Nemo está en la posición: " + pezPosicion)
 
  /**
-  * Fíjate sin embargo qué valor arroja aplicar indexOf cuando buscamos a "estrella". CONTESTA: ¿Por qué crees que sucede esto?
+  * Fíjate sin embargo qué valor arroja aplicar indexOf cuando buscamos a "estrella". CONTESTA: ¿Por qué crees que sucede esto? estrella esta mal escrito
   */
 
   let pezPosicion2 = muchos_peces.indexOf("estrella")

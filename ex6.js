@@ -6,17 +6,19 @@ function existePez(listaPeces, pezBuscado) {
     let pezEncontrado = false; // Empezamos a buscar en el array. De momento, no hemos encontrado el pez;
     let i = 0; // quiero empezar a buscar por el primer elemento del array, es decir, por listaPeces[0]
 
-    while (!pezEncontrado && i < listapeces.length - 1) {
+    while (!pezEncontrado && i <= listaPeces.length - 1) {
+        console.log(listaPeces[i]);
         // PISTA ERROR 2: usa console.log dentro de este bucle para ver como cambia el valor de las variables 'i' y 'pezEncontrado'.
         pezEncontrado = (listaPeces[i] == pezBuscado);
-        i++;
+        i++; 
+        
     }
-
+   
     return pezEncontrado; // devolvemos true o false en función de si hemos encontrado el pez
 }
 
 let muchos_peces = ["Dory", "Nemo", "Shipho", "Estrella"]
-let he_encontrado_al_pez = existePez(muchos_peces, "Estrella")
+let he_encontrado_al_pez = existePez(muchos_peces, "Dory")
 
 console.log("He encontrado al pez?: " + he_encontrado_al_pez)
 

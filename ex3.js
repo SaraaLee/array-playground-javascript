@@ -15,7 +15,7 @@
  */
 
  /**
-  * Ejecuta el siguiente código e intenta averiguar que está sucediendo. CONTESTA A LA PREGUNTA: ¿Porque el úñtimo mensaje dice "Pez siguiente: undefined?"
+  * Ejecuta el siguiente código e intenta averiguar que está sucediendo. CONTESTA A LA PREGUNTA: ¿Porque el úñtimo mensaje dice "Pez siguiente: undefined?" porque en el bucle le hemos dicho que pare en la 4 iteracion y el array llega a 3
   */
 
 let muchos_peces = ["Dory", "Nemo", "Shipho", "Estrella"]

@@ -3,9 +3,22 @@
 
 // Estas palabras prohibidas vienen de la base de datos. Úsa la variable palabrasProhibidas, porque sus valores podrían cambiar en función de las necesidades del censor 
 
-let palabrasProhibidas = ["Bugatti", "yummmy", "booty"];
+let palabrasProhibidas = ["Bugatti", "yummy", "booty"];
 
 console.log("Es hora de censurar!")
+
+let spans = document.querySelectorAll("span");
+
+
+for (let i = 0; i < spans.length; i++) {
+
+    if (spans.includes(palabrasProhibidas)){ 
+        document.querySelector(palabrasProhibidas) = "****"
+
+    }
+    
+    
+}
 
 // Resultado esperado: tras cargar la aplicación Web, las palabras contenidas en el array 'palabrasProhibidas' han sido substituidas por **** en el documento Web ya renderizado.
 

@@ -56,13 +56,43 @@
          * Ejercicio 1: Recorre ahora todas las celdas de los ingresos y muestrálos por el terminal, similar al ejemplo.
          */
 
+        let ingresosMichis = document.querySelectorAll(".ingreso");
+
+        
+        
+        
+        for (let i = 0; i < ingresosMichis.length; i++) {
+        console.log("El numero de ingresos es: ", ingresosMichis[i].textContent);
+        };
+
+
+
         /**
          * Ejercicio 2: Amplia el ejercicio 1, y ahora SUMA el valor de todos los ingresos y pon el resultado en <span id="ingresos">. RECUERDA primero escribir lo que quieres hacer, qué variables vas a necesitar, con lenguaje natural. Después, usa JavaScript
-         */
+         
+         1. Sumar todos los ingresos , quizas con un selectALL
+         
+            */
+            let total = 0;
+            let ingresosTotales = document.querySelectorAll(".ingreso");
+         
+
+        // 2. recorrer celdas con un for y acumular en la variable total el valor que hay en text content, mostrar por consola total = total + Number(…..)
+
+        
+        for (let i = 0; i < ingresosTotales.length; i++) {
+        
+        console.log("El numero de ingresos totales es: ", ingresosTotales[i].textContent);
+        
+        total = total + Number(ingresosTotales[i].textContent);
+        console.log(total);
+        
+        };
 
         /**
          * Ejercicio Bonus: Serias capaz de mostrar el nombre de todos los propietarios por el terminal SIN MODIFICAR el HTML?
-         */
+         nth-child(2)*/
+         console.log(document.querySelectorAll("td:nth-child(2)"));
 
 
     </script>
